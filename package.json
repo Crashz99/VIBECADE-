@@ -1,0 +1,20 @@
+{
+  "name": "vibecade-rehauled",
+  "private": true,
+  "version": "5.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.2",
+    "vite": "^7.1.3"
+  },
+  "description": "Local-first interactive rooms, mascots, unlockable curios, focus, music, notes, scheduling and tiny arcade breaks."
+}
