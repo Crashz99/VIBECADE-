@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Scene from './components/Scene';
 import Cat from './components/Cat';
 import InspectorDog from './components/InspectorDog';
@@ -359,6 +360,7 @@ export default function App() {
     {screen !== 'start' && <EncounterDirector screen={screen} playlistLength={playlist.length} onUnlock={setUnlocks}/>}
     {screen !== 'start' && <div className="quick-corner"><button onClick={() => setStatsOpen(true)}>▦ LOG</button><button onClick={() => setCommandOpen(true)}>/</button><button onClick={() => setAbout(true)}>?</button></div>}
     <CreatorFooter/>
+    <Analytics />
   </div>;
 }
 
